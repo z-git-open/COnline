@@ -18,4 +18,12 @@ public class Print {
 		}
 		System.out.println();
 	}
+	
+	public static void printListString(List<String> result){
+		for(String s : result){
+			System.out.print(s + ", ");
+		}
+		System.out.println();
+	}
+
 }
