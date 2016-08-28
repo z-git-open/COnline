@@ -2,6 +2,7 @@ import java.util.*;
 import common.*;
 import LC.lc_150_evaluate_reverse_polish_notation;
 import LC.lc_18_4Sum;
+import LC.lc_43_multiply_strings;
 import LC.lc_93_restore_ip_addresses;
 
 public class MainTest {
@@ -19,9 +20,9 @@ public class MainTest {
 		String[] input5 = new String[] {"5", "-3", "/"};
 		
 
-		lc_93_restore_ip_addresses sol = new lc_93_restore_ip_addresses();
-		List<String> r = sol.restoreIpAddresses("25525511135");
-		Print.printListString(r);
+		lc_43_multiply_strings sol = new lc_43_multiply_strings();
+		String r = sol.multiply("85070591730234615847396907784232501249", "85070591730234615847396907784232501249");
+		System.out.println(r);
 
 		System.out.println("DONE");
 

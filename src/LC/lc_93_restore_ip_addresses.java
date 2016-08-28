@@ -6,7 +6,6 @@ public class lc_93_restore_ip_addresses {
 	public List<String> restoreIpAddresses(String s) {
 		restoreHelper(s.toCharArray(), 0, "", "");
 		return new ArrayList<String>(combinations);
-
 	}
 
 	HashSet<String> combinations = new HashSet<String>();
@@ -19,7 +18,7 @@ public class lc_93_restore_ip_addresses {
 		}
 
 		// general work flow
-		int length = s.length;
+		int length = s.length; 
 		for (int i = start; i < length; i++) {
 			if (i + 2 < length && s[i] == '2' && s[i + 1] == '5' && s[i + 2] == '5') {
 				i = i + 2;
