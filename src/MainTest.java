@@ -1,10 +1,6 @@
 import java.util.*;
 import common.*;
-import LC.lc_150_evaluate_reverse_polish_notation;
-import LC.lc_18_4Sum;
-import LC.lc_43_multiply_strings;
-import LC.lc_61_rotate_list;
-import LC.lc_93_restore_ip_addresses;
+import LC.*;
 
 public class MainTest {
 
@@ -19,12 +15,11 @@ public class MainTest {
 		int[] input3 = new int[] { 3, 1, -9, -9, 9, -4, -2, 5, 10, 6, 8, -7, -8, -7, 8, 2, 9, -1 };
 		int[] input4 = new int[] { 1, 2 };
 		int[] input5 = new int[] { 1, 2, 3, 4, 5 };
-		ListNode head = ListNode.create(input4);
-
-		lc_61_rotate_list sol = new lc_61_rotate_list();
-		head = sol.rotateRight(head, 3);
-
-		Print.printLinkedList(head);
+		int[][] input6 = new int[][]{{1}};
+		
+		lc_54_spiral_matrix sol = new lc_54_spiral_matrix();
+		List<Integer> r = sol.spiralOrder(input6);
+		Print.printListInteger(r);
 
 		System.out.println("DONE");
 
