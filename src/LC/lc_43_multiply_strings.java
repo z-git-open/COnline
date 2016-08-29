@@ -54,4 +54,35 @@ public class lc_43_multiply_strings {
 			return carryforward + result;
 	}
 
+	public String sum_v2(String x, String y) {
+		String result = "";
+		int x_idx = x.length() - 1;
+		int y_idx = y.length() - 1;
+		int x_val = 0;
+		int y_val = 0;
+		int carryforward = 0;
+
+		while (x_idx >= 0 || y_idx >= 0) {
+			if (x_idx >= 0) {
+				x_val = x.charAt(x_idx) - '0';
+				x_idx--;
+			} else
+				x_val = 0;
+
+			if (y_idx >= 0) {
+				y_val = y.charAt(y_idx) - '0';
+				y_idx--;
+			} else
+				y_val = 0;
+
+			int sum = x_val + y_val + carryforward;
+			result = sum % 10 + result;
+			carryforward = sum / 10;
+		}
+		if (carryforward == 0)
+			return result;
+		else
+			return carryforward + result;
+	}
+
 }
