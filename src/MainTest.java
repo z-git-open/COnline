@@ -15,11 +15,12 @@ public class MainTest {
 		int[] input3 = new int[] { 3, 1, -9, -9, 9, -4, -2, 5, 10, 6, 8, -7, -8, -7, 8, 2, 9, -1 };
 		int[] input4 = new int[] { 1, 2 };
 		int[] input5 = new int[] { 1, 2, 3, 4, 5 };
-		int[][] input6 = new int[][]{{1}};
+		int[][] input6 = new int[][]{{1,2,3,4}, {5,6,7,8}, {9,10,11,12}, {13,14,15,16}};
+		String inputa = "abcabcbb";
 		
-		lc_54_spiral_matrix sol = new lc_54_spiral_matrix();
-		List<Integer> r = sol.spiralOrder(input6);
-		Print.printListInteger(r);
+		lc_3_Longest_Substring_Without_Repeating_Characters sol = new lc_3_Longest_Substring_Without_Repeating_Characters();
+		String r = sol.lengthOfLongestSubstring("abcadceb");
+		System.out.println(r);
 
 		System.out.println("DONE");
 
