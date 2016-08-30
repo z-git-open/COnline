@@ -14,12 +14,12 @@ public class MainTest {
 		int[] input2 = new int[] { 2, 1, 3 };
 		int[] input3 = new int[] { 3, 1, -9, -9, 9, -4, -2, 5, 10, 6, 8, -7, -8, -7, 8, 2, 9, -1 };
 		int[] input4 = new int[] { 1, 2 };
-		int[] input5 = new int[] { 1, 2, 3, 4, 5 };
+		int[] input5 = new int[] { 3, 30, 34, 5, 9 };
 		int[][] input6 = new int[][]{{1,2,3,4}, {5,6,7,8}, {9,10,11,12}, {13,14,15,16}};
 		String inputa = "abcabcbb";
 		
-		lc_3_Longest_Substring_Without_Repeating_Characters sol = new lc_3_Longest_Substring_Without_Repeating_Characters();
-		String r = sol.lengthOfLongestSubstring("abcadceb");
+		lc_179_Largest_Number sol = new lc_179_Largest_Number();
+		String r = sol.largestNumber(input5);
 		System.out.println(r);
 
 		System.out.println("DONE");
