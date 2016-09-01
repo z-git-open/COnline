@@ -16,10 +16,10 @@ public class MainTest {
 		int[] input4 = new int[] { 1, 2 };
 		int[] input5 = new int[] { 3, 30, 34, 5, 9 };
 		int[][] input6 = new int[][]{{1,2,3,4}, {5,6,7,8}, {9,10,11,12}, {13,14,15,16}};
-		String inputa = "abcabcbb";
+		List<String> inputa = Arrays.asList("lest", "leet", "lose", "code", "lode", "robe", "lost");
 		
-		lc_179_Largest_Number sol = new lc_179_Largest_Number();
-		String r = sol.largestNumber(input5);
+		lc_127_Word_Ladder sol = new lc_127_Word_Ladder();
+		int r = sol.ladderLength("leet", "code", new HashSet<String>(inputa));
 		System.out.println(r);
 
 		System.out.println("DONE");
@@ -27,3 +27,6 @@ public class MainTest {
 	}
 
 }
+
+
+
