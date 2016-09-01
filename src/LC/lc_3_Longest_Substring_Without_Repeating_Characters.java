@@ -38,6 +38,6 @@ public class lc_3_Longest_Substring_Without_Repeating_Characters {
 				result += s.charAt(i);
 			}
 		}
-		return (result.length() > longestStr.length()) ? result: longestStr;
+		return 0;// (result.length() > longestStr.length()) ? result: longestStr;
 	}
 }

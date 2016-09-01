@@ -13,13 +13,13 @@ public class MainTest {
 		int[] input1 = new int[] { 1, 0, -1, 0, -2, 2 };
 		int[] input2 = new int[] { 2, 1, 3 };
 		int[] input3 = new int[] { 3, 1, -9, -9, 9, -4, -2, 5, 10, 6, 8, -7, -8, -7, 8, 2, 9, -1 };
-		int[] input4 = new int[] { 1, 2 };
+		int[] input4 = new int[] { 1, 3, 1};
 		int[] input5 = new int[] { 3, 30, 34, 5, 9 };
 		int[][] input6 = new int[][]{{1,2,3,4}, {5,6,7,8}, {9,10,11,12}, {13,14,15,16}};
 		List<String> inputa = Arrays.asList("lest", "leet", "lose", "code", "lode", "robe", "lost");
 		
-		lc_127_Word_Ladder sol = new lc_127_Word_Ladder();
-		int r = sol.ladderLength("leet", "code", new HashSet<String>(inputa));
+		lc_220_Contains_Duplicate_III sol = new lc_220_Contains_Duplicate_III();
+		boolean r = sol.containsNearbyAlmostDuplicate(input4, 2, 1); 
 		System.out.println(r);
 
 		System.out.println("DONE");
