@@ -18,11 +18,11 @@ public class MainTest {
 		int[][] input6 = new int[][]{{1,2,3,4}, {5,6,7,8}, {9,10,11,12}, {13,14,15,16}};
 		List<String> inputa = Arrays.asList("lest", "leet", "lose", "code", "lode", "robe", "lost");
 		
-		lc_307_Range_Sum_Query_Mutable sol = new lc_307_Range_Sum_Query_Mutable(input4);
+		lc_91_Decode_Ways sol = new lc_91_Decode_Ways();
+		List<List<String>> r = sol.numDecodings("1234");
+		Print.printListListString(r);
 		 
-		System.out.println(sol.sumRange(0, 2));
-		sol.update(1, 2);
-		System.out.println(sol.sumRange(0, 2));
+		
 		System.out.println("DONE");
 
 	}

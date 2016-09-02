@@ -11,6 +11,15 @@ public class Print {
 		}
 	}
 	
+	
+	public static void printListListString(List<List<String>> result){
+		if(result == null) return;
+		for(List<String> list : result){
+			printListString(list);
+		}
+	}
+	
+	
 	public static void printListInteger(List<Integer> result){
 		if(result == null) return;
 		for(Integer x : result){
