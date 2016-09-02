@@ -40,5 +40,95 @@ public class dumpGround {
 			else return true;
 		}
 	}*/
+	
+	
+	
+	
+	
+	
+	
+	
+	/*
+	package LC;
+
+	public class lc_307_Range_Sum_Query_Mutable {
+		
+		int[][] sumtable = null;
+		int length = 0;
+		int[] _nums = null;
+		public lc_307_Range_Sum_Query_Mutable(int[] nums) {
+	        length = nums.length;
+	        sumtable = new int[length][length];
+	        this._nums = nums;
+	        for(int i = 0; i < length; i++)
+	        	sumtable[i][i] = nums[i];
+	        
+	        for(int row = 0; row < length; row++){
+	        	for(int col = row+1; col < length; col++){
+	        		sumtable[row][col] = sumtable[row][col-1] + nums[col]; 
+	        	}
+	        }
+	        for(int row = 0; row < length; row++){
+	        	for(int col = 0; col < length; col++){
+	        		if(row == col)
+	        			sumtable[row][col] = nums[col];
+	        		else if(col < row)
+	        			sumtable[row][col] = 0;
+	        		else
+	            		sumtable[row][col] = sumtable[row][col-1] + nums[col]; 
+	        	}
+	        }
+	    }
+
+		public void update(int i, int val) {
+			if(i < 0 || i >= this.length) return;
+			this._nums[i] = val;
+			
+			for(int row = 0; row <= i; row++){
+				for(int col = i; col < length; col++){
+					sumtable[row][col] = sumtable[row][col-1]+this._nums[col];
+				}
+			}
+		}
+
+		public int sumRange(int i, int j) {
+			if(i <= j)
+				return sumtable[i][j];
+			else
+				return sumtable[j][i];
+
+		}
+
+	}
+*/
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 }
