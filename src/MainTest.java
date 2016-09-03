@@ -17,9 +17,11 @@ public class MainTest {
 		int[] input5 = new int[] { 3, 30, 34, 5, 9 };
 		int[][] input6 = new int[][]{{1,2,3,4}, {5,6,7,8}, {9,10,11,12}, {13,14,15,16}};
 		List<String> inputa = Arrays.asList("lest", "leet", "lose", "code", "lode", "robe", "lost");
-		
-		lc_91_Decode_Ways sol = new lc_91_Decode_Ways();
-		List<List<String>> r = sol.numDecodings("1234");
+		inputa.con
+		char[][] input7 = new char[][]{{'O'}};
+
+		lc_130_Surrounded_Regions sol = new lc_130_Surrounded_Regions();
+		List<List<String>> r = sol
 		Print.printListListString(r);
 		 
 		
