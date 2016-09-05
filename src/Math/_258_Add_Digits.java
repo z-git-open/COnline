@@ -1,4 +1,4 @@
-package LC;
+package Math;
 /*258. Add Digits
 Please login first. 
 Question Editorial Solution 
