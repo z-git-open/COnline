@@ -17,10 +17,9 @@ public class MainTest {
 		int[] input5 = new int[] { 3, 30, 34, 5, 9 };
 		int[][] input6 = new int[][]{{1,2,3,4}, {5,6,7,8}, {9,10,11,12}, {13,14,15,16}};
 		List<String> inputa = Arrays.asList("lest", "leet", "lose", "code", "lode", "robe", "lost");
-		
 		char[][] input7 = new char[][]{{'O'}};
-		_29_Divide_Two_Integers sol = new _29_Divide_Two_Integers();
-		int r = sol.divide(-2147483648, -1);
+		_292_Nim_Game sol = new _292_Nim_Game();
+		boolean r = sol.canWinNim(4);
 		System.out.println(r);
 		 
 		
