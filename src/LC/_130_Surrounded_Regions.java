@@ -3,7 +3,7 @@ package LC;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class lc_130_Surrounded_Regions {
+public class _130_Surrounded_Regions {
 	public void solve(char[][] board) {
         //special
         if(board == null || board.length == 0) 

@@ -11,7 +11,7 @@ import java.util.Arrays;
  * 
  */
 
-public class lc_220_Contains_Duplicate_III {
+public class _220_Contains_Duplicate_III {
 
 	public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
 		// special

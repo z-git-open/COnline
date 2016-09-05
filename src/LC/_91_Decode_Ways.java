@@ -2,7 +2,7 @@ package LC;
 
 import java.util.*;
 
-public class lc_91_Decode_Ways {
+public class _91_Decode_Ways {
 
 	public List<List<String>> numDecodings(String s) {
 		numHelper(s.toCharArray(), 0, s.length() - 1, new ArrayList<String>());

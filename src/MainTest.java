@@ -19,7 +19,7 @@ public class MainTest {
 		List<String> inputa = Arrays.asList("lest", "leet", "lose", "code", "lode", "robe", "lost");
 		
 		char[][] input7 = new char[][]{{'O'}};
-		lc_29_Divide_Two_Integers sol = new lc_29_Divide_Two_Integers();
+		_29_Divide_Two_Integers sol = new _29_Divide_Two_Integers();
 		int r = sol.divide(-2147483648, -1);
 		System.out.println(r);
 		 

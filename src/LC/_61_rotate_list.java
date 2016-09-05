@@ -27,7 +27,7 @@ import common.Print;
 	linK: https://discuss.leetcode.com/topic/14470/my-clean-c-code-quite-standard-find-tail-and-reconnect-the-list
 	 
  */
-public class lc_61_rotate_list {
+public class _61_rotate_list {
 	
 	public ListNode rotateRight(ListNode head, int k) {
 		// special

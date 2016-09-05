@@ -1,10 +1,10 @@
 package LC;
 
-public class lc_307_Range_Sum_Query_Mutable {
+public class _307_Range_Sum_Query_Mutable {
 
 	SegmentTreeNode root = null;
 	
-	public lc_307_Range_Sum_Query_Mutable(int[] nums) {
+	public _307_Range_Sum_Query_Mutable(int[] nums) {
 		root = buildSegmentTree(nums, 0, nums.length-1);
 		
 	}

@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class lc_127_Word_Ladder {
+public class _127_Word_Ladder {
 	public int ladderLength(String beginWord, String endWord, Set<String> wordList) {
 		/*wordList.remove(beginWord);
 		wordList.remove(endWord);*/

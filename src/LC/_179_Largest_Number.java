@@ -1,6 +1,6 @@
 package LC;
 
-public class lc_179_Largest_Number {
+public class _179_Largest_Number {
 	public String largestNumber(int[] nums) {
         //special 
         if(nums == null || nums.length ==0)

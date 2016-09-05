@@ -2,7 +2,7 @@ package LC;
 
 import java.util.*;
 
-public class lc_93_restore_ip_addresses {
+public class _93_restore_ip_addresses {
 	public List<String> restoreIpAddresses(String s) {
 		restoreHelper(s.toCharArray(), 0, "", "");
 		return new ArrayList<String>(combinations);

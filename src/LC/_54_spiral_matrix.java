@@ -2,7 +2,7 @@ package LC;
 
 import java.util.*;
 
-public class lc_54_spiral_matrix {
+public class _54_spiral_matrix {
 
 	public List<Integer> spiralOrder(int[][] matrix) {
 		if (matrix == null)

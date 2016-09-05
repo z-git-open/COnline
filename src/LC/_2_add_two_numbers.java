@@ -1,6 +1,6 @@
 package LC;
 
-public class lc_2_add_two_numbers {
+public class _2_add_two_numbers {
 
 	/*
 	 * 

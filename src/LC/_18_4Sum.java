@@ -2,7 +2,7 @@ package LC;
 
 import java.util.*;
 
-public class lc_18_4Sum {
+public class _18_4Sum {
 
 	// ::::::::::::::::::::::::::::::::
 	// ::::::::: combinations ::::::::

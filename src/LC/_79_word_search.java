@@ -1,6 +1,6 @@
 package LC;
 
-public class lc_79_word_search {
+public class _79_word_search {
 	public boolean exist(char[][] board, String word) {
         //special case & boundary check
         if(board == null || board.length == 0 || board[0].length == 0 || word.length() == 0)

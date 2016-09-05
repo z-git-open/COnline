@@ -1,6 +1,6 @@
 package LC;
 
-public class lc_29_Divide_Two_Integers {
+public class _29_Divide_Two_Integers {
 	
 	public int divide(int dividend, int divisor) {
 		//special 

@@ -2,7 +2,7 @@ package LC;
 
 import java.util.*;
 
-public class lc_150_evaluate_reverse_polish_notation {
+public class _150_evaluate_reverse_polish_notation {
 
 	public int evalRPN(String[] tokens) {
 		// special case & boundary check

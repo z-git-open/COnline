@@ -1,6 +1,6 @@
 package LC;
 
-public class lc_43_multiply_strings {
+public class _43_multiply_strings {
 
 	public String multiply(String num1, String num2) {
 		// special case
