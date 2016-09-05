@@ -20,6 +20,8 @@ public class MainTest {
 		char[][] input7 = new char[][]{{'O'}};
 		_292_Nim_Game sol = new _292_Nim_Game();
 		boolean r = sol.canWinNim(4);
+		HashSet<Integer> res = new HashSet<Integer>();
+		Integer[] aa = new Integer[res.size()];
 		System.out.println(r);
 		 
 		
