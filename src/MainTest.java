@@ -18,10 +18,9 @@ public class MainTest {
 		int[][] input6 = new int[][]{{1,2,3,4}, {5,6,7,8}, {9,10,11,12}, {13,14,15,16}};
 		List<String> inputa = Arrays.asList("lest", "leet", "lose", "code", "lode", "robe", "lost");
 		char[][] input7 = new char[][]{{'O'}};
-		_292_Nim_Game sol = new _292_Nim_Game();
-		boolean r = sol.canWinNim(4);
-		HashSet<Integer> res = new HashSet<Integer>();
-		Integer[] aa = new Integer[res.size()];
+		_202_Happy_Number sol = new _202_Happy_Number();
+		boolean r = sol.isHappy(2);
+		
 		System.out.println(r);
 		 
 		
